@@ -64,7 +64,7 @@ export default function Dashboard({ code }) {
             <TrackSearchResult track={track} key={track.uri} />
         ))}
       </div>
-      <div><Player accessToken={accessToken} /></div>
+      <div><Player /></div>
     </Container>
   );
 }
